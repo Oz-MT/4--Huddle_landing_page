@@ -34,7 +34,7 @@ body {
 /* navbar */
 
 .navbar {
-  padding: 4rem 2.5% 12rem 2.5%;
+  padding: 4rem 3% 12rem 3%;
   align-items: center;
   justify-content: space-between;
 }
@@ -156,6 +156,10 @@ body {
   text-align: center;
 }
 
+.build h2 {
+  padding: 0 5%;
+}
+
 .build button {
   margin: 4rem 0 15rem 0;
 }
@@ -272,13 +276,13 @@ footer button:hover {
   .picture .text {
     order: 2;
     margin-top: 5rem;
-    max-width: 60%;
+    max-width: 80%;
     text-align: center;
   }
 
   .picture img {
     order: 1;
-    max-width: 60%;
+    max-width: 80%;
   }
 }
 
@@ -294,10 +298,37 @@ footer button:hover {
   .count .left {
     margin-bottom: 5rem;
   }
+
+  footer .right {
+    order: 1;
+    margin-bottom: 5rem;
+  }
+
+  footer .left {
+    order: 2;
+  }
+
+  footer .right form {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  footer .right form input {
+    width: 100%;
+  }
+
+  footer .right form button {
+    margin-top: 2rem;
+  }
 }
 
 @media (max-width: 375px) {
   html {
     font-size: 55%;
+  }
+
+  .footer-top {
+    background-image: url(./images/bg-footer-top-mobile.svg);
+    height: 5rem;
   }
 }
