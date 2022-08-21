@@ -84,7 +84,8 @@ body {
 
 .main img {
   margin: 8rem 0;
-  max-width: 75%;
+  width: 100%;
+  max-width: 70%;
 }
 
 .main button {
@@ -138,6 +139,7 @@ body {
 }
 
 .picture img {
+  width: 100%;
   max-width: 40%;
 }
 .picture .text {
